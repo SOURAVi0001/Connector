@@ -2,17 +2,6 @@
 ### Real-Time Bi-Directional Data Synchronization
 
 
-
-[Image of Database synchronization architecture]
-
-
-## 📖 The Backstory
-In the modern workplace, teams love **Google Sheets** for its collaboration, but developers need **PostgreSQL/MySQL** for its power and scalability. Usually, keeping these two in sync is a manual nightmare of exporting CSVs and re-importing data.
-
-**SuperSync** solves this by creating a real-time, bi-directional bridge. When you type in a cell, the database updates. When the database changes, the sheet reflects it instantly. 
-
----
-
 ## 🛠️ Tech Stack
 * **Backend:** Node.js (Express)
 * **Database:** PostgreSQL (Hosted on AWS for scalability)
@@ -45,7 +34,7 @@ Instead of using inefficient polling (which constantly asks the server for updat
 
 ---
 
-## 🚀 The "Aha!" Moment: Ngrok to the Rescue
+## Ngrok
 During development, I hit a wall: Google Apps Script (in the cloud) couldn't see my server running on `localhost`. 
 
 I discovered **Ngrok**, which created a secure tunnel from the web straight to my local machine. This allowed me to test the real-time triggers in a live environment without deploying to a VPS every 5 minutes. This was a massive boost to my productivity.
@@ -75,12 +64,3 @@ I discovered **Ngrok**, which created a secure tunnel from the web straight to m
     * Update the `BASE_URL` with your Ngrok URL.
 
 ---
-
-## 👨‍💻 About the Developer
-**Sourav Pander**
-* **Education:** B.Tech CSE @ IIIT Bhopal (Batch of 2026)
-* **Achievements:** LeetCode Knight (1000+ problems solved)
-* **Focus:** Full-Stack Development | AI Engineering
-
----
-*Developed as part of a 48-hour synchronization challenge.*
