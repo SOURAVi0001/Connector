@@ -1,4 +1,4 @@
-# 🚀 SuperSync: The Bridge Between Sheets & SQL
+# SuperSync: The Bridge Between Sheets & SQL
 ### Real-Time Bi-Directional Data Synchronization
 
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 I organized this project using a strict MVC pattern to ensure the code is modular, readable, and easy to scale.
 
 | Directory | Responsibility |
@@ -25,7 +25,7 @@ I organized this project using a strict MVC pattern to ensure the code is modula
 
 ---
 
-## 💡 My Approach: "Push, Don't Pull"
+## Approach: "Push, Don't Pull"
 Instead of using inefficient polling (which constantly asks the server for updates), I implemented a push-based system:
 
 * **Google to DB:** I used `onEdit` triggers in Google Apps Script. The moment a cell is edited, it **pushes** a payload to the backend. This avoids hitting API rate limits and feels instantaneous.
