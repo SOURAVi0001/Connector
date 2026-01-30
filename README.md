@@ -56,7 +56,7 @@ I discovered **Ngrok**, which created a secure tunnel from the web straight to m
     * Place your `googleSheetsCredentials.json` in `src/config/`.
 4.  **Expose Localhost:**
     ```bash
-    ngrok http 5000
+    ngrok http 3012
     ```
 5.  **Google Apps Script:**
     * Copy the code from `extensions/google-app-script.js`.
