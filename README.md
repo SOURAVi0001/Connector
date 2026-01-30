@@ -41,7 +41,7 @@ I discovered **Ngrok**, which created a secure tunnel from the web straight to m
 
 ---
 
-## ⚙️ How to Setup
+## How to Setup
 1.  **Clone the Repo:**
     ```bash
     git clone [https://github.com/SOURAVi0001/SuperSync.git](https://github.com/SOURAVi0001/SuperSync.git)
