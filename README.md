@@ -2,7 +2,7 @@
 ### Real-Time Bi-Directional Data Synchronization
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Backend:** Node.js (Express)
 * **Database:** PostgreSQL (Hosted on AWS for scalability)
 * **Cloud Logic:** Google Apps Script
